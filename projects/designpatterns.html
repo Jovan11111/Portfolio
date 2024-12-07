@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Site</title>
+    <link rel="stylesheet" href="../index.css">
+    <script src="../index.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="file-tree">
+            <ul>
+                <li class="folder">
+                    <span class="folder-icon" onclick="toggleFolder(this)">📂 CV</span>
+                    <ul class="nested">
+                        <a href="../aboutme.html"><li class="file"><span class="file-icon">📄</span> aboutme</li></a>
+                        <a href="../contact.html"><li class="file"><span class="file-icon">📄</span> contact</li></a>
+                        <li class="folder">
+                            <span class="folder-icon" onclick="toggleFolder(this)">📂 Projects</span>
+                            <ul class="nested">
+                                <a href="project.html"><li class="file"><span class="file-icon">📄</span> Project</li></a>
+                                <a href="jsvtexteditor.html"><li class="file"><span class="file-icon">📄</span> JSVTextEditor</li></a>
+                                <a href="hypervisorwithkvm.html"><li class="file"><span class="file-icon">📄</span> HypervisorWithKVM</li></a>
+                                <a href="designpatterns.html"><li class="file-selected"><span class="file-icon">📄</span> DesignPatterns</li></a>
+                                <a href="osproject.html"><li class="file"><span class="file-icon">📄</span> OsProject</li></a>
+                                <a href="uniconnect.html"><li class="file"><span class="file-icon">📄</span> UniConnect</li></a>
+                                <a href="umltranslator.html"><li class="file"><span class="file-icon">📄</span> UMLTranslator</li></a>
+                                <a href="mastermind.html"><li class="file"><span class="file-icon">📄</span> MasterMind</li></a>
+                                <a href="sudoku.html"><li class="file"><span class="file-icon">📄</span> Sudoku</li></a>
+                                <a href="benchmark.html"><li class="file"><span class="file-icon">📄</span> BenchMark</li></a>
+                                <a href="compiler.html"><li class="file"><span class="file-icon">📄</span> Compiler</li></a>
+                                <a href="gamecenter.html"><li class="file"><span class="file-icon">📄</span> GameCenter</li></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="container" id="container">
+            <div class="editor">
+                <div class="code">
+                    <p onclick="highlightLine(this)" style="margin-top: 20px; margin-bottom: 2px;">
+                        <span class="line-numbers" >&nbsp1</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
+                        <span class="line-numbers">&nbsp2</span> // Design Patterns project page
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
+                        <span class="line-numbers">&nbsp3</span> // The inspiration for this project is one of my favourite courses, Software Design
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
+                        <span class="line-numbers">&nbsp4</span> // -------------------------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">&nbsp5</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">&nbsp6</span> <span style="color: rgb(82,138,205);">class</span> DesignPatterns: <span style="color: rgb(82,138,205);">public</span> Project {
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">&nbsp7</span>
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">&nbsp8</span> &nbsp&nbsp <span style="color: #C586C0;">name</span>: DesignPatterns 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">&nbsp9</span>
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">10</span> &nbsp&nbsp <span style="color: #C586C0;">desc</span>: Comprehensive resource for understanding and implementing design patterns in C++ and Java,
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">11</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp with detailed explanations, UML diagrams, and template implementations for each pattern
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">12</span>
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">13</span> &nbsp&nbsp <span style="color: #C586C0;">tools</span>: Java, C++, UML, design patterns
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">14</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">15</span> &nbsp&nbsp <span style="color: #C586C0;">github_link</span>: <a href="https://github.com/Jovan11111/DesignPatterns" target="_blank" rel="noopener noreferrer">Click here</a>
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">16</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">17</span> }
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">18</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">19</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">20</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">21</span>  
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">22</span> 
+                    </p>
+                </div>
+            </div>
+            <div id="divider"></div>
+            <div class="terminal">
+                <div class="terminal-header">Terminal</div>
+                <div class="terminal-content">
+                    <textarea id="terminal-input" placeholder="Type your commands here..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
