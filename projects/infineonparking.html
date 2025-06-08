@@ -21,7 +21,7 @@
                             <ul class="nested">
                                 <a href="project.html"><li class="file"><span class="file-icon">📄</span> Project</li></a>
                                 <a href="jwitter.html"><li class="file"><span class="file-icon">📄</span> Jwitter</li></a>
-                                <a href="infineonparking.html"><li class="file"><span class="file-icon">📄</span> InfineonParking</li></a>
+                                <a href="infineonparking.html"><li class="file-selected"><span class="file-icon">📄</span> InfineonParking</li></a>
                                 <a href="jsvtexteditor.html"><li class="file"><span class="file-icon">📄</span> JSVTextEditor</li></a>
                                 <a href="hypervisorwithkvm.html"><li class="file"><span class="file-icon">📄</span> HypervisorWithKVM</li></a>
                                 <a href="designpatterns.html"><li class="file"><span class="file-icon">📄</span> DesignPatterns</li></a>
@@ -29,7 +29,7 @@
                                 <a href="uniconnect.html"><li class="file"><span class="file-icon">📄</span> UniConnect</li></a>
                                 <a href="umltranslator.html"><li class="file"><span class="file-icon">📄</span> UMLTranslator</li></a>
                                 <a href="mastermind.html"><li class="file"><span class="file-icon">📄</span> MasterMind</li></a>
-                                <a href="sudoku.html"><li class="file-selected"><span class="file-icon">📄</span> Sudoku</li></a>
+                                <a href="sudoku.html"><li class="file"><span class="file-icon">📄</span> Sudoku</li></a>
                                 <a href="benchmark.html"><li class="file"><span class="file-icon">📄</span> BenchMark</li></a>
                                 <a href="compiler.html"><li class="file"><span class="file-icon">📄</span> Compiler</li></a>
                                 <a href="gamecenter.html"><li class="file"><span class="file-icon">📄</span> GameCenter</li></a>
@@ -46,10 +46,10 @@
                         <span class="line-numbers" >&nbsp1</span> 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
-                        <span class="line-numbers">&nbsp2</span> // UML translator project page
+                        <span class="line-numbers">&nbsp2</span> // Infineon Parking project page
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
-                        <span class="line-numbers">&nbsp3</span> // One of my favourite projects, I plan on expanding it
+                        <span class="line-numbers">&nbsp3</span> // This is my first project that is actually being used by someone, my colleagues
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px; color: #6A9955;">
                         <span class="line-numbers">&nbsp4</span> // -------------------------------------------------------------------------------------------------------------------------------------------
@@ -58,52 +58,64 @@
                         <span class="line-numbers">&nbsp5</span> 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">&nbsp6</span> <span style="color: rgb(82,138,205);">class</span> UMLTranslator: <span style="color: rgb(82,138,205);">public</span> Project {
+                        <span class="line-numbers">&nbsp6</span> <span style="color: rgb(82,138,205);">class</span> InfineonParking: <span style="color: rgb(82,138,205);">public</span> Project {
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
                         <span class="line-numbers">&nbsp7</span>
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">&nbsp8</span> &nbsp&nbsp <span style="color: #C586C0;">name</span>: UMLTranslator
+                        <span class="line-numbers">&nbsp8</span> &nbsp&nbsp <span style="color: #C586C0;">name</span>: InfineonParking
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
                         <span class="line-numbers">&nbsp9</span>
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">10</span> &nbsp&nbsp <span style="color: #C586C0;">desc</span>: Python-based tool for translating UML (Unified Modeling Language) diagrams stored in .mdj (MagicDraw) files into Java and C++ code
+                        <span class="line-numbers">10</span> &nbsp&nbsp <span style="color: #C586C0;">desc</span>: created a full-stack website that serves as a platform for infineon workers to 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">11</span>
+                        <span class="line-numbers">11</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp reserve parking spots for the upcoming 7 days. The app supports reserving and unreserving parking spots, 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">12</span> &nbsp&nbsp <span style="color: #C586C0;">tools</span>: Python, Java, C++, design patterns, StarUML
+                        <span class="line-numbers">12</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp along side of entering into a waiting list, so if someone unreserves a spot,  
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">13</span> 
+                        <span class="line-numbers">13</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp the first user in the waiting list is automatically assigned a spot and is informed over an email. 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">14</span> &nbsp&nbsp <span style="color: #C586C0;">github_link</span>: <a href="https://github.com/Jovan11111/UML_translator" target="_blank" rel="noopener noreferrer">Click here</a>
+                        <span class="line-numbers">14</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp There is also PWA configuration, so the app is installable on mobile devices
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">15</span> 
+                        <span class="line-numbers">15</span>
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">16</span> }
+                        <span class="line-numbers">16</span> &nbsp&nbsp <span style="color: #C586C0;">tools</span>: Git, Django, Tailwind, Railway, PWA
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
                         <span class="line-numbers">17</span> 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">18</span> 
+                        <span class="line-numbers">18</span> &nbsp&nbsp <span style="color: #C586C0;">github_link</span>: <a href="https://github.com/Jovan11111/InfineonParking" target="_blank" rel="noopener noreferrer">Click here</a>
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
                         <span class="line-numbers">19</span> 
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
-                        <span class="line-numbers">20</span>  
+                        <span class="line-numbers">20</span> }
                     </p>
                     <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
                         <span class="line-numbers">21</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">22</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">23</span> 
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">24</span>  
+                    </p>
+                    <p onclick="highlightLine(this)" style="margin-top: 2px; margin-bottom: 2px;">
+                        <span class="line-numbers">25</span> 
                     </p>
                 </div>
             </div>

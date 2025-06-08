@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const terminalInput = document.getElementById('terminal-input');
     cur = window.location.pathname.split('/').pop().split('.')[0]
     
-    const filenames = ["aboutme", "contact", "project", "jsvtexteditor", "hypervisorwithkvm", "umltranslator", "designpatterns", "osproject", "uniconnect", "mastermind", "sudoku", "benchmark"]
+    const filenames = ["aboutme", "contact", "project", "jsvtexteditor", "hypervisorwithkvm", "umltranslator", "designpatterns", "osproject", "uniconnect", "mastermind", "sudoku", "benchmark", "jwitter", "infineonparking", "gamecenter", "compiler"]
     if (terminalInput) {
         terminalInput.addEventListener('keypress', function (event) {
             if (event.key === 'Enter') {
